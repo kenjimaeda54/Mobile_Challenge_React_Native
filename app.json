@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "mobile_changele_2021",
+    "slug": "mobile_changele_2021",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "mobile_changele_2021"
+}
