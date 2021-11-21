@@ -1,11 +1,14 @@
 {
   "expo": {
-    "name": "mobile_changele_2021",
-    "slug": "mobile_changele_2021",
+    "name": "mobile_challenge_2021",
+    "slug": "mobile_challenge_2021",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"]
   },
-  "name": "mobile_changele_2021"
+  "name": "mobile_challenge_2021",
+  "splash": {
+    "image": "./assets/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#000000"
+  }
 }
