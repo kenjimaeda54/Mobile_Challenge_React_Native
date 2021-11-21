@@ -34,24 +34,6 @@ export const CardUser = ({ result, ...rest }: CardProps): JSX.Element => (
         <Description>
           País: <DescriptionColor> {getCountry(result.nat)}</DescriptionColor>
         </Description>
-        <Gap />
-        <Description>
-          Endereço:{' '}
-          <DescriptionColor>
-            {result.location.street.number},{result.location.street.name},
-            {result.location.city},{result.location.state}
-          </DescriptionColor>
-        </Description>
-        <Gap />
-        <Description>
-          Telefone: <DescriptionColor>{result.phone}</DescriptionColor>
-        </Description>
-        <Gap />
-        <Description>
-          Celular:
-          <DescriptionColor> {result.cell}</DescriptionColor>
-        </Description>
-        <Gap />
         <Footer>
           <FooterDescription>{getSex(result.gender)} </FooterDescription>
           <FooterDescription>{formatDate(result.dob.date)}</FooterDescription>

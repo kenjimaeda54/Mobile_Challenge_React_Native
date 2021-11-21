@@ -41,15 +41,6 @@ export const Error = styled.Text`
   color: ${({ theme }) => theme.colors.gray};
 `;
 
-// export const ContainerCard = styled.View`
-//   background-color: ${({ theme }) => theme.colors.blueThird};
-//   padding: 5px 20px;
-// `;
-
-// export const TextInput = styled.Text`
-//   font-family: ${({ theme }) => theme.fonts.interMedium};
-// `;
-
 export const Section = styled.View`
   width: 100%;
   flex-direction: row;

@@ -6,9 +6,10 @@
     "assetBundlePatterns": ["**/*"]
   },
   "name": "mobile_challenge_2021",
+  "backgroundColor": "#00AFAD",
   "splash": {
     "image": "./assets/splash.png",
     "resizeMode": "contain",
-    "backgroundColor": "#000000"
+    "backgroundColor": "#000"
   }
 }
