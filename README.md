@@ -4,7 +4,7 @@ Solução para o desafio  [challenge by coodesh](https://lab.coodesh.com/public-
 
 # Mobile Challenge 🏅 2021
 
-##  Motivacao
+##  Motivação
 Consumir api [random_user](https://randomuser.me/documentation), aplicando filtros por país e gêneros.</br>
 Caso de uso: A empresa Pharma Inc, está trabalhando em um projeto em colaboração com sua base de clientes para facilitar a gestão e visualização da informação dos seus pacientes de maneira simples e objetiva em uma aplicação onde podem listar, filtrar e expandir os dados disponíveis.
 
