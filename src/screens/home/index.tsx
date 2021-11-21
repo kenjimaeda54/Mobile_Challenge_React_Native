@@ -99,11 +99,11 @@ export default function HomeScreen(): JSX.Element {
             `/?page=${page}&results=10&nat=${filterCountry}`,
           );
           data = response.data.results;
+          inputRef.current?.blur();
         } else if (generic.length < 2) {
           const response = await api.get(`/?page=${page}&results=10`, {
             maxContentLength: 10,
           });
-          inputRef.current?.blur();
           data = response.data.results;
         } else {
           const response = await api.get(
