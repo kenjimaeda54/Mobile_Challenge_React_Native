@@ -1,6 +1,6 @@
 import styled from 'styled-components/native';
 import { getStatusBarHeight } from 'react-native-iphone-x-helper';
-import { Dimensions } from 'react-native';
+import { Dimensions, TextInput } from 'react-native';
 import { BorderlessButton } from 'react-native-gesture-handler';
 
 interface SelectProps {
@@ -14,8 +14,15 @@ interface ButtonProps {
 export const Container = styled.View`
   flex: 1;
   height: 100%;
-  padding: ${getStatusBarHeight() + 30}px 20px;
+  padding: ${getStatusBarHeight() + 30}px 20px 0px;
   width: ${Dimensions.get('window').width}px;
+  background-color: ${({ theme }) => theme.colors.blueThird};
+`;
+
+export const ContainerLoading = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
   background-color: ${({ theme }) => theme.colors.blueThird};
 `;
 
@@ -28,14 +35,20 @@ export const Title = styled.Text`
   font-family: ${({ theme }) => theme.fonts.interBold};
 `;
 
-export const ContainerCard = styled.View`
-  background-color: ${({ theme }) => theme.colors.blueThird};
-  padding: 5px 20px;
+export const Error = styled.Text`
+  font-size: 16px;
+  line-height: 19px;
+  color: ${({ theme }) => theme.colors.gray};
 `;
 
-export const TextInput = styled.Text`
-  font-family: ${({ theme }) => theme.fonts.interMedium};
-`;
+// export const ContainerCard = styled.View`
+//   background-color: ${({ theme }) => theme.colors.blueThird};
+//   padding: 5px 20px;
+// `;
+
+// export const TextInput = styled.Text`
+//   font-family: ${({ theme }) => theme.fonts.interMedium};
+// `;
 
 export const Section = styled.View`
   width: 100%;
@@ -49,7 +62,7 @@ export const IconInput = styled.View`
   left: 230px;
 `;
 
-export const Input = styled.TextInput`
+export const Input = styled(TextInput)`
   position: relative;
   padding: 10px 10px;
   width: 93%;
@@ -111,6 +124,7 @@ export const Id = styled.Text`
   color: ${({ theme }) => theme.colors.orangeSecond};
   font-family: ${({ theme }) => theme.fonts.interMedium};
   margin-bottom: 5px;
+  width: 50%;
 `;
 
 export const TitleEmail = styled.Text`
@@ -129,6 +143,7 @@ export const Description = styled.Text`
 
 export const DescriptionColor = styled(Description)`
   color: ${({ theme }) => theme.colors.orangeSecond};
+  font-family: ${({ theme }) => theme.fonts.interMedium};
 `;
 
 export const Footer = styled.View`
@@ -138,7 +153,10 @@ export const Footer = styled.View`
   margin: 10px 0px;
 `;
 
-export const FooterTitle = styled(DescriptionColor)``;
+export const FooterTitle = styled(DescriptionColor)`
+  color: ${({ theme }) => theme.colors.orangeSecond};
+  font-family: ${({ theme }) => theme.fonts.interMedium};
+`;
 
 export const ContainerImgModal = styled.View`
   width: 100%;
@@ -202,4 +220,12 @@ export const TextButton = styled.Text`
   line-height: 20px;
   color: ${({ theme }) => theme.colors.white};
   font-family: ${({ theme }) => theme.fonts.interRegular};
+`;
+
+export const LoaderFooter = styled.View`
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
 `;
