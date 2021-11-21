@@ -1,6 +1,6 @@
 # Mobile_Challenge_React_Native
 Mobile Challenge 🏅 2021
-Solucao para o desafio  [challenge](https://lab.coodesh.com/public-challenges/mobile-challenge-2021)
+Solução para o desafio  [challenge by coodesh](https://lab.coodesh.com/public-challenges/mobile-challenge-2021)
 
 # Mobile Challenge 🏅 2021
 
