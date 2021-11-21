@@ -19,6 +19,7 @@ Caso de uso: A empresa Pharma Inc, está trabalhando em um projeto em colaboraç
 - Utilizei react Native para aplicar solução proposta no desafio, com expo facilita muito o trabalho, possibilitando configurações de fontes, cores sem necessidade de muitas configurações.
 - Axios e uma  excelente ferramente para lidar com requisições http.
 - Styled component, faz todo sentido quando o assunto estilo em React, ambos trabalhão com filosofia de componentes.
+- Type script, facilita muito quando o assunto e desenvolvimento em java script.
 
 
 ## Como iniciar?
